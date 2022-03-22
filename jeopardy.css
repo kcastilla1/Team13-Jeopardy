@@ -1,0 +1,43 @@
+/* Stylesheet for jeopardy.php */
+
+body {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 3em; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+
+div {
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 75%;
+}
+
+th, td {
+    width: 0.2em;
+    border: 0.1em solid black;
+}
+
+#board {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border: 0.2em solid black;
+    table-layout: fixed;
+}
