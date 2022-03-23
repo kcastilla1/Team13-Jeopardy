@@ -1,0 +1,99 @@
+* {
+  font-family: Monaco;
+}
+body {
+  background-image: url(bg.jpg);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro {
+  font-size: 200px;
+  font-weight: bold;
+  color: #fdd835;
+  text-align: center;
+  border: 5px solid silver;
+  padding: auto;
+  border-radius: 5px;
+  background: silver;
+}
+.userinfo {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+form {
+  font-size: 30px;
+  text-align: center;
+  color: grey;
+}
+.button {
+  font-size: 30px;
+  background-color: silver;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  padding: 10px;
+}
+.button:hover {
+  background-color: #fdd835;
+}
+.button:active {
+  background-color: #b8babd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1.title
+{
+  font-size: 200px;
+  font-weight: bold;
+  color: #fdd835;
+  text-align: center;
+}
+.table
+{
+  font-weight: solid;
+  color: #ffb404;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 75%;
+  
+}
+
+th, td {
+  color: #ffb404;
+  font-weight: solid;
+  background: #083358;
+  background: -moz-linear-gradient(-45deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+  background: -webkit-linear-gradient(-45deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+  background: linear-gradient(135deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+  width: 0.2em;
+  border: 0.1em solid #083358;
+  border-radius: 10px;
+  transition: background-color 2s ease-out 100ms
+}
+th, td:hover {
+  background-color: #82B7FE;
+}
+table {
+ 
+  color: #ffb404;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+  font-size: 2em;
+  text-align: center;
+  table-layout: fixed;
+}
