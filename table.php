@@ -43,13 +43,6 @@
   <div class="item">$800</div>
   <div class="item">$800</div>
   <div class="item">$800</div>
-  <div class="item">$1000</div>
-  <div class="item">$1000</div>
-  <div class="item">$1000</div>
-  <div class="item">$1000</div>
-  <div class="item">$1000</div>
-  <div class="item">$1000</div>
-  
 </div>
 </body>
 
