@@ -94,3 +94,16 @@ background: linear-gradient(135deg, #083358 0%, #2692DB 50%, #1A6598 100%);
   color: whitesmoke;
   text-align: center;
 }
+.question
+{
+  font-weight: bold;
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.detail
+{
+  color: #ffb404;
+  font-size: 50px;
+  text-align: center;
+}
