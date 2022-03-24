@@ -1,63 +1,56 @@
 <html>
-
-<!-- WebPro Spring 2022 -->
-<!-- Author: Kendall Castilla -->
-<!-- Date: 03/23/2022 -->
-
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <style>
-        
-    </style>
     <title>Jeopardy!</title>
 </head>
 
 <body>
 <h1 class = "title">Jeopardy!</h1>
-    <div class = "table">
-        <table>
-            <tr>
-                <!--Col 1--><th>State, Not Southern</th>
-                <!--Col 2--><th>Palindromes</th>
-                <!--Col 3--><th>Anagrams</th>
-                <!--Col 4--><th>Column 4</th>
-                <!--Col 5--><th>Column 5</th>
-                <!--Col 6--><th>Column 6</th>
-            </tr>
-            <tr>
-                <?php for($i=0; $i<6; $i++) {
-                    echo "<td>$100</td>";
-                }
-                ?>
-                
-            </tr>
-            <tr>
-                <?php for($i=0; $i<6; $i++) {
-                    echo "<td>$200</td>";
-                }
-                ?>
-            </tr>
-            <tr>
-                <?php for($i=0; $i<6; $i++) {
-                    echo "<td>$300</td>";
-                }
-                ?>
-            </tr>
-            <tr>
-                <?php for($i=0; $i<6; $i++) {
-                    echo "<td>$400</td>";
-                }
-                ?>
-            </tr>
-            <tr>
-                <?php for($i=0; $i<6; $i++) {
-                    echo "<td>$500</td>";
-                }
-                ?>
-            </tr>
-        </table>
-    </div>
-
+  <div class="table">
+  <div class="item">FIRST DAY ON THE JOB</div>
+  <div class="item">FACTS ABOUT ANIMALS</div>
+  <div class="item">HOLIDAYS & OBSERVANCES</div>  
+  <div class="item">REALITY SHOW WINNERS</div>
+  <div class="item">FOOD & DRINK</div>
+  <div class="item">CELEBRITIES</div>  
+  <div class="item">$100</div>
+  <div class="item">$100</div>
+  <div class="item">$100</div>
+  <div class="item">$100</div>
+  <div class="item">$100</div>
+  <div class="item">$100</div>
+  <div class="item">$200</div>
+  <div class="item">$200</div>
+  <div class="item">$200</div>
+  <div class="item">$200</div>
+  <div class="item">$200</div>
+  <div class="item">$200</div>
+  <div class="item">$400</div>
+  <div class="item">$400</div>
+  <div class="item">$400</div>
+  <div class="item">$400</div>
+  <div class="item">$400</div>
+  <div class="item">$400</div>
+  <div class="item">$600</div>
+  <div class="item">$600</div>
+  <div class="item">$600</div>
+  <div class="item">$600</div>
+  <div class="item">$600</div>
+  <div class="item">$600</div>
+  <div class="item">$800</div>
+  <div class="item">$800</div>
+  <div class="item">$800</div>
+  <div class="item">$800</div>
+  <div class="item">$800</div>
+  <div class="item">$800</div>
+  <div class="item">$1000</div>
+  <div class="item">$1000</div>
+  <div class="item">$1000</div>
+  <div class="item">$1000</div>
+  <div class="item">$1000</div>
+  <div class="item">$1000</div>
+  
+</div>
 </body>
 
 

@@ -13,7 +13,7 @@
         <label> Your name: </label> <input name= "name" type = "text" size = "25">
         <br>
         <br>
-        <input class = "button" type = "submit" value = "Play game!">
+        <input class = "button" type = "submit" value = "Submit">
       </form>
     </div>
      
