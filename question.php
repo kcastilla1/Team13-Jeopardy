@@ -15,6 +15,11 @@ echo '<p class ="detail">'.$lines[$id];
 ?>
 <p class = "question">Your answer: </p>
 <form>
+  <input type="text" name="ans" placeholder = "Type your answer here!">
+  <br>
+  <br>
+  <input class = "button" type = "submit" value = "Submit">
+</form>
 </body>
 
 

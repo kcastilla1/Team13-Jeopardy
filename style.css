@@ -107,3 +107,10 @@ background: linear-gradient(135deg, #083358 0%, #2692DB 50%, #1A6598 100%);
   font-size: 50px;
   text-align: center;
 }
+input[type="text"]
+{
+  height: 50px;
+  width: 80%;
+  padding: 10px;
+  font-size: 30px;
+}
