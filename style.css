@@ -3,6 +3,17 @@
 }
 body {
   background-image: url(bg.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.main {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .intro {
   font-size: 200px;
@@ -36,13 +47,135 @@ form {
   border-radius: 15px;
   box-shadow: 0 9px #999;
   padding: 10px;
+  margin-top:.5em;
 }
 .button:hover {
   background-color: #fdd835;
 }
-
 .button:active {
   background-color: #b8babd;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+h1.title
+{
+  font-size: 200px;
+  font-weight: bold;
+  color: #ffb404;
+  text-align: center;
+  margin-top: .1em;
+  margin-bottom: .2em;
+}
+h1.qtitle {
+  margin-top: .2em;
+  margin-bottom: .2em;
+  font-size: 8em;
+  font-weight: bold;
+  color: #ffb404;
+  text-align: center;
+}
+h2.winnings {
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffb404;
+  text-align: center;
+}
+
+
+.item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid whitesmoke;
+border-radius: 5px;
+padding: 20px;
+margin: 2px;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+color: #ffb404;
+font-weight: solid;
+background: #083358;
+background: -moz-linear-gradient(-45deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+background: -webkit-linear-gradient(-45deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+background: linear-gradient(135deg, #083358 0%, #2692DB 50%, #1A6598 100%);
+}
+.item:hover
+{
+  background: ghostwhite;
+}
+.table {
+  display: grid;
+  grid-template-columns:  15% 15% 15% 15% 15% 15%;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 1em;
+}
+
+.welcome
+{
+  color: whitesmoke;
+  text-align: center;
+}
+p.question
+{
+  margin-left:2em;
+  font-weight: bold;
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 30px;
+}
+p.ans {
+  margin-left:11em;
+  font-weight: bold;
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 30px;
+}
+p.detail
+{
+  margin: auto;
+  width: 65%;
+  height: 40%;
+  color: #ffb404;
+  font-size: 50px;
+  text-align: center;
+}
+div.submitans {
+  margin: auto;
+  margin-bottom: 6em;
+}
+.message {
+  margin-top: 20%;
+  margin-bottom: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  font-size: 2em;
+  color: #ffb404;
+}
+
+div.nopass {
+  margin:auto;
+  margin-top: 40%;
+  margin-bottom: 40%;
+  width: 60%;
+}
+
+div.leaderboard {
+  margin: auto;
+  width: 70%;
+
+}
+
+table.leaderboard {
+  width:70%;
+  margin: auto;
+  
+}
+
+div.leaders {
+  width: 75%;
+  font-size: 2em;
 }
